@@ -67,11 +67,11 @@ function Navbar() {
 
   return (
     <>
-      <nav className="fixed top-2 md:top-4 left-1/2 -translate-x-1/2 w-[95%] md:w-[92%] max-w-[1100px] bg-white/90 backdrop-blur-md border border-black/5 rounded-full md:rounded-full px-3 md:px-6 py-2 md:py-3 z-50 shadow-lg">
+      <nav className="floating-nav">
         <div className="flex justify-between items-center">
           <div className="nav-logo">
             <Link to="/" className="font-extrabold text-lg md:text-xl tracking-wide no-underline text-gray-900">
-              <img src="NavbarLogo.png" alt="سيركلز" className="h-6 md:h-8 w-auto" />
+              <img src="NavbarLogo.png" alt="سيركلز" className="nav-logo-image" />
             </Link>
           </div>
           
