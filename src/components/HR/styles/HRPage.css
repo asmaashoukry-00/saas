@@ -1,0 +1,143 @@
+/* HR Page Layout Styles */
+
+.section-header {
+  text-align: center;
+}
+
+.section-main-title {
+  font-size: 36px;
+  color: #111827;
+  font-weight: 800;
+}
+
+/* Circles Solutions Section */
+.circles-solutions {
+  padding: 80px 0;
+  background-color: #ffffff;
+}
+
+.circles-solutions .header-group {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.circles-solutions .main-sentence {
+  font-size: 42px;
+  font-weight: 800;
+  color: #111827;
+  line-height: 1.3;
+}
+
+.circles-solutions .highlight-wrap {
+  position: relative;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.circles-solutions .hand-drawn-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 120%;
+  height: 150%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.circles-solutions .premium-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+  margin-top: 50px;
+}
+
+.circles-solutions .modern-card {
+  background: #ffffff;
+  border-radius: 28px;
+  overflow: hidden;
+  border: 1px solid #f0f3f6;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+  transition: all 0.4s ease;
+}
+
+.circles-solutions .modern-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 30px 60px rgba(79, 70, 229, 0.08);
+}
+
+.circles-solutions .card-image-wrapper {
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+}
+
+.circles-solutions .card-image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.circles-solutions .modern-card:hover .card-image-wrapper img {
+  transform: scale(1.08);
+}
+
+.circles-solutions .card-badge {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 6px 14px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #4F46E5;
+}
+
+.circles-solutions .card-body-content {
+  padding: 32px;
+}
+
+.circles-solutions .card-main-title {
+  font-size: 22px;
+  font-weight: 800;
+  color: #111;
+  margin-bottom: 14px;
+}
+
+.circles-solutions .card-main-desc {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 22px;
+}
+
+.circles-solutions .features-sub-list {
+  list-style: none;
+  padding: 0;
+  border-top: 1px solid #f1f5f9;
+  padding-top: 20px;
+  margin-bottom: 22px;
+}
+
+.circles-solutions .features-sub-list li {
+  font-size: 15px;
+  color: #334155;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.circles-solutions .features-sub-list li::before {
+  content: "←";
+  color: #4F46E5;
+  font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+  .circles-solutions .premium-cards-grid {
+    grid-template-columns: 1fr;
+  }
+}

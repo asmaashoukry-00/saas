@@ -1,0 +1,123 @@
+/* HR Solutions Section Styles */
+
+.hr-solutions-section {
+  padding: 80px 0;
+  background: #fcfcfc;
+}
+
+.section-header {
+  text-align: center;
+}
+
+.section-main-title {
+  font-size: 32px;
+  color: #111827;
+  font-weight: 800;
+}
+
+.hr-solutions-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.hr-solution-card {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 35px 28px;
+  border: 1px solid #f1f5f9;
+  transition: all 0.3s ease;
+}
+
+.hr-solution-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+.hr-solution-icon {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.hr-solution-icon svg,
+.hr-solution-icon img {
+  width: 50px;
+  height: 50px;
+}
+
+.blue-theme .hr-solution-icon,
+.purple-theme .hr-solution-icon,
+.green-theme .hr-solution-icon,
+.violet-theme .hr-solution-icon {
+  background: transparent;
+  color: inherit;
+}
+
+.hr-solution-title {
+  font-size: 22px;
+  font-weight: 800;
+  color: #111827;
+  margin-bottom: 12px;
+}
+
+.hr-solution-desc {
+  font-size: 16px;
+  color: #64748b;
+  line-height: 1.7;
+  margin-bottom: 22px;
+}
+
+.hr-solution-features {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+.hr-solution-features li {
+  padding: 10px 0;
+  border-bottom: 1px solid #f1f5f9;
+  font-size: 15px;
+  color: #334155;
+}
+
+.hr-solution-features li::before {
+  content: '→';
+  color: var(--primary);
+  margin-left: 10px;
+}
+
+.hr-solution-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #1e293b;
+  font-weight: 700;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.hr-solution-btn:hover {
+  color: var(--primary);
+}
+
+.hr-solution-btn:hover i {
+  transform: translateX(-5px);
+}
+
+@media (max-width: 992px) {
+  .hr-solutions-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .hr-solutions-grid {
+    grid-template-columns: 1fr;
+  }
+}

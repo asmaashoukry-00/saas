@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="500.00009"
+   height="499.99997"
+   viewBox="0 0 132.29169 132.29166"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="CirclesSoft Icons.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="22.627417"
+     inkscape:cx="1514.1366"
+     inkscape:cy="654.29474"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="true" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-199.59694,-108.61476)">
+    <g
+       id="g10"
+       transform="matrix(55.555557,0,0,55.555557,-20937.671,-9563.3768)"
+       style="stroke-width:0.018">
+      <circle
+         style="fill:#1a1a1a;fill-rule:evenodd;stroke-width:0.00952501;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.3;stroke-opacity:0.992157;paint-order:stroke fill markers"
+         id="circle10"
+         cx="381.66144"
+         cy="175.28647"
+         r="1.190625" />
+      <path
+         id="path10"
+         style="fill:#f9f9f9;fill-rule:evenodd;stroke:none;stroke-width:0.00238126;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:7.3;stroke-dasharray:none;stroke-opacity:0.992157;paint-order:stroke fill markers"
+         d="m 381.42323,174.69114 v 0.72864 h 0.1726 v 0.3297 h 0.1328 v -0.79479 -0.0641 h 0.17105 v -0.19948 z m 0.37052,0.26459 v 0.79375 h 0.47645 v -0.79375 z m -0.74104,0.52916 v 0.26459 h 0.47645 v -0.26459 z M 381,175.81562 v 0.13229 h 1.32291 v -0.13229 z" />
+    </g>
+  </g>
+</svg>
