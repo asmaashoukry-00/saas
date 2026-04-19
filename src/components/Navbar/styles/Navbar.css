@@ -395,4 +395,7 @@
   .mega-column {
     display: none !important;
   }
+  .nav-logo-image {
+    height: 26px;
+  }
 }
