@@ -43,57 +43,49 @@ const hrSolutions = [
 
 function HRSolutions() {
   return (
-    <section className="hr-solutions-section">
-      <div className="container">
-        <div className="section-header">
-          <h2 className="section-main-title">
+    <section className="py-12 md:py-20 bg-white">
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-8 md:mb-12">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-gray-900">
   <span 
-    className="hr-highlight" 
-    style={{ position: 'relative', display: 'inline-block', zIndex: '1' }}
+    className="relative inline-block"
   >
     موظفوك ثروتك
     <svg 
-      className="brush-highlight" 
+      className="absolute -bottom-2 right-0 w-full h-16 -z-10" 
       viewBox="0 0 520 110" 
       preserveAspectRatio="none" 
-      fill="none" 
-      style={{
-        position: 'absolute',
-        bottom: '-15px', // نزلناه شوية عشان يبقى تحت الكلمة كأنه خط يدوي
-        right: '0',
-        width: '105%', // خليناه أعرض من الكلمة بشوية لإعطاء شكل الـ Brush
-        height: '70px',
-        zIndex: '-1',
-        pointerEvents: 'none'
-      }}
     >
       <path 
         d="M10 55 Q 260 45 510 55" 
         stroke="#FC787D" 
         strokeWidth="45" 
         strokeLinecap="round" 
-        strokeOpacity="0.8" // جربي 0.8 لو عاوزة لون الـ SVG يكون أهدى والكلام أوضح
+        strokeOpacity="0.8" 
       />
     </svg>
   </span>
   .. أدرهم بذكاء، وشاهد أرباحك تنمو.
 </h2>
         </div>
-        <div className="hr-solutions-grid">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-6 lg:gap-8">
           {hrSolutions.map((solution, index) => (
-            <Link key={index} to={solution.link} className={`hr-solution-card ${solution.theme}-theme`}>
-              <div className="hr-solution-icon">
-                <img src={solution.icon} alt={solution.title} />
+            <Link key={index} to={solution.link} className={`hr-solution-card ${solution.theme}-theme block bg-white rounded-2xl md:rounded-3xl p-6 md:p-7 border border-gray-100 hover:-translate-y-2 hover:shadow-xl transition-all duration-300`}>
+              <div className="mb-4 md:mb-5">
+                <img src={solution.icon} alt={solution.title} className="w-12 h-12 md:w-14 md:h-14" />
               </div>
-              <h3 className="hr-solution-title">{solution.title}</h3>
-              <p className="hr-solution-desc">{solution.description}</p>
-              <ul className="hr-solution-features">
+              <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-2 md:mb-3">{solution.title}</h3>
+              <p className="text-sm md:text-base text-gray-500 leading-relaxed mb-4 md:mb-5">{solution.description}</p>
+              <ul className="mb-5 md:mb-6">
                 {solution.features.map((feature, i) => (
-                  <li key={i}>{feature}</li>
+                  <li key={i} className="text-sm text-gray-600 py-2 border-b border-gray-50 flex items-center gap-2">
+                    <span className="text-primary">→</span>
+                    {feature}
+                  </li>
                 ))}
               </ul>
-              <span className="hr-solution-btn">
-                اعرف المزيد <FaArrowLeft />
+              <span className="text-sm md:text-base font-semibold text-gray-800 flex items-center gap-2 hover:text-primary transition-colors">
+                اعرف المزيد <FaArrowLeft className="text-xs" />
               </span>
             </Link>
           ))}
