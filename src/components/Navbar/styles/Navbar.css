@@ -14,6 +14,12 @@
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
 }
 
+@supports (backdrop-filter: blur(15px)) {
+  .floating-nav {
+    backdrop-filter: blur(15px);
+  }
+}
+
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -207,14 +213,25 @@
 
 @media (max-width: 480px) {
   .floating-nav {
-    width: 92%;
-    padding: 10px 15px;
+    width: 90%;
+    padding: 8px 12px;
+    top: 8px;
+    border-radius: 20px;
   }
   .nav-logo-text {
     font-size: 16px;
   }
   .nav-logo-image {
     height: 25px;
+  }
+  .mobile-toggle {
+    padding: 5px;
+  }
+  .mobile-toggle .hamburger {
+    width: 20px;
+  }
+  .mobile-toggle .hamburger span {
+    height: 2px;
   }
 }
 

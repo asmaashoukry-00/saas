@@ -12,10 +12,20 @@
   box-sizing: border-box; 
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   font-family: 'Tajawal', sans-serif;
   direction: rtl;
   background: #fff;
+  overflow-x: hidden;
+}
+
+#root {
+  max-width: 100%;
   overflow-x: hidden;
 }
 
@@ -47,8 +57,25 @@ ul {
   padding-right: 2rem;
 }
 
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .max-w-2xl {
   max-width: 42rem;
+}
+
+.md\:px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (max-width: 768px) {
+  .px-8 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 /* Animation utilities */
