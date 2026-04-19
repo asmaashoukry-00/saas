@@ -102,24 +102,24 @@ function FinancePage() {
         </div>
       </section>
 
-      <section className="solutions-section py-12 md:py-20 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <h2 className="section-title text-2xl md:text-3xl font-extrabold text-gray-900 text-center mb-8 md:mb-12">حلولنا المالية المتكاملة</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-6">
-            <div className="solution-card bg-white p-6 md:p-8 rounded-2xl md:rounded-3xl border border-gray-100 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
-              <div className="card-icon w-12 h-12 md:w-14 md:h-14 bg-indigo-50 text-primary rounded-xl md:rounded-2xl flex items-center justify-center text-xl md:text-2xl mb-4"><FaFileInvoice /></div>
-              <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-2 md:mb-3">إدارة الفواتير والمبيعات</h3>
-              <p className="text-sm md:text-base text-gray-500 leading-relaxed">إنشاء فواتير احترافية ومتابعة المبيعات لحظة بلحظة</p>
+      <section className="solutions-section">
+        <div className="container">
+          <h2 className="section-title">حلولنا المالية المتكاملة</h2>
+          <div className="solutions-grid">
+            <div className="solution-card">
+              <div className="card-icon"><FaFileInvoice /></div>
+              <h3>إدارة الفواتير والمبيعات</h3>
+              <p>إنشاء فواتير احترافية ومتابعة المبيعات لحظة بلحظة</p>
             </div>
-            <div className="solution-card bg-white p-6 md:p-8 rounded-2xl md:rounded-3xl border border-gray-100 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
-              <div className="card-icon w-12 h-12 md:w-14 md:h-14 bg-indigo-50 text-primary rounded-xl md:rounded-2xl flex items-center justify-center text-xl md:text-2xl mb-4"><FaChartLine /></div>
-              <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-2 md:mb-3">المحاسبة العامة</h3>
-              <p className="text-sm md:text-base text-gray-500 leading-relaxed">دفتر أستاذ إلكتروني ودفتر اليومية وكافة القيود المحاسبية</p>
+            <div className="solution-card">
+              <div className="card-icon"><FaChartLine /></div>
+              <h3>المحاسبة العامة</h3>
+              <p>دفتر أستاذ إلكتروني ودفتر اليومية وكافة القيود المحاسبية</p>
             </div>
-            <div className="solution-card bg-white p-6 md:p-8 rounded-2xl md:rounded-3xl border border-gray-100 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
-              <div className="card-icon w-12 h-12 md:w-14 md:h-14 bg-indigo-50 text-primary rounded-xl md:rounded-2xl flex items-center justify-center text-xl md:text-2xl mb-4"><FaWarehouse /></div>
-              <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-2 md:mb-3">إدارة المخزون</h3>
-              <p className="text-sm md:text-base text-gray-500 leading-relaxed">تتبع المخزون وتنبيه انخفاض الأصناف وإدارة المستودعات</p>
+            <div className="solution-card">
+              <div className="card-icon"><FaWarehouse /></div>
+              <h3>إدارة المخزون</h3>
+              <p>تتبع المخزون وتنبيه انخفاض الأصناف وإدارة المستودعات</p>
             </div>
           </div>
         </div>

@@ -58,11 +58,11 @@ function Footer() {
             <h3>تواصل معنا</h3>
             <div className="contact-info-grid">
                 <div className="contact-item">
-                    <span className="country-tag">السعودية - الرياض</span>
+                    <span className="country-tag">🇸🇦 السعودية - الرياض</span>
                     <a href="tel:+966543868253" dir="ltr">+966 54 386 8253</a>
                 </div>
                 <div className="contact-item">
-                    <span className="country-tag">الأردن - عمّان</span>
+                    <span className="country-tag">🇯🇴 الأردن - عمان</span>
                     <a href="tel:+962788868944" dir="ltr">+962 78 886 8944</a>
                 </div>
             </div>
