@@ -137,7 +137,18 @@
 }
 
 @media (max-width: 1024px) {
+  .section-main-title { font-size: 24px; }
+  .circles-solutions { padding: 50px 0; }
+  .circles-solutions .header-group { margin-bottom: 30px; }
+  .circles-solutions .main-sentence { font-size: 22px; line-height: 1.5; }
   .circles-solutions .premium-cards-grid {
     grid-template-columns: 1fr;
+    gap: 15px;
+    margin-top: 25px;
   }
+  .circles-solutions .modern-card { border-radius: 18px; }
+  .circles-solutions .card-image-wrapper { height: 150px; }
+  .circles-solutions .card-body-content { padding: 20px; }
+  .circles-solutions .card-main-title { font-size: 18px; }
+  .circles-solutions .card-main-desc { font-size: 14px; }
 }
