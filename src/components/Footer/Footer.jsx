@@ -3,10 +3,10 @@ import './styles/Footer.css';
 
 function Footer() {
   return (
-    <footer className="bg-gray-900 text-white py-16 md:py-20 font-tajawal">
-    <div className="max-w-6xl mx-auto px-4 md:px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10 pb-12 md:pb-14">
+    <footer className="bg-gray-900 text-white py-10 md:py-16 font-tajawal">
+    <div className="max-w-6xl mx-auto px-4 md:px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 pb-8 md:pb-10">
         <div className="brand-area">
-            <img src="/NavbarLogo.png" alt="Circles" className="h-10 md:h-11 mb-5 filter brightness-0 invert" />
+            <img src="/NavbarLogo.png" alt="Circles" className="h-8 md:h-10 mb-4 md:mb-5 filter brightness-0 invert" />
             <p className="text-gray-400 text-sm md:text-base leading-relaxed max-w-xs">منظومة متكاملة تربط مفاصل منشأتك في مكان واحد، من الموارد البشرية إلى المحاسبة والمبيعات.</p>
         </div>
 
@@ -44,7 +44,7 @@ function Footer() {
 
     <hr className="border-gray-800 max-w-6xl mx-auto" />
 
-    <div className="max-w-6xl mx-auto px-4 md:px-6 py-10 md:py-12 flex flex-col md:flex-row gap-8 md:gap-10">
+    <div className="max-w-6xl mx-auto px-4 md:px-6 py-6 md:py-8 flex flex-col md:flex-row gap-6 md:gap-8">
         <div className="flex-1">
             <h3 className="text-base md:text-lg font-bold mb-5 md:mb-6">حلول إضافية</h3>
             <ul className="space-y-3">
@@ -78,7 +78,7 @@ function Footer() {
 
     <hr className="border-gray-800/50 max-w-6xl mx-auto" />
 
-    <div className="max-w-6xl mx-auto px-4 md:px-6 py-6 md:py-8 flex flex-col md:flex-row justify-between items-center gap-3 text-gray-500 text-sm">
+    <div className="max-w-6xl mx-auto px-4 md:px-6 py-4 md:py-5 flex flex-col md:flex-row justify-between items-center gap-2 md:gap-3 text-gray-500 text-sm">
         <p>© 2026 CirclesSoft. جميع الحقوق محفوظة.</p>
         <a href="https://www.circlesoft.com" className="hover:text-white transition-colors">www.circlesoft.com</a>
     </div>
