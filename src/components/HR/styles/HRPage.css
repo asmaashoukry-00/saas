@@ -138,53 +138,6 @@
 
 @media (max-width: 1024px) {
   .circles-solutions .premium-cards-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 25px;
-  }
-  .section-main-title {
-    font-size: 28px;
-  }
-}
-
-@media (max-width: 768px) {
-  .circles-solutions {
-    padding: 50px 0;
-  }
-  .circles-solutions .header-group {
-    margin-bottom: 30px;
-  }
-  .circles-solutions .main-sentence {
-    font-size: 22px;
-  }
-  .circles-solutions .premium-cards-grid {
     grid-template-columns: 1fr;
-    gap: 18px;
-    margin-top: 30px;
-  }
-  .circles-solutions .modern-card {
-    border-radius: 20px;
-  }
-  .circles-solutions .card-image-wrapper {
-    height: 150px;
-  }
-  .circles-solutions .card-body-content {
-    padding: 22px;
-  }
-  .circles-solutions .card-main-title {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  .circles-solutions .card-main-desc {
-    font-size: 14px;
-    margin-bottom: 15px;
-    line-height: 1.5;
-  }
-  .circles-solutions .features-sub-list {
-    padding-top: 15px;
-    margin-bottom: 18px;
-  }
-  .circles-solutions .features-sub-list li {
-    font-size: 13px;
-    margin-bottom: 10px;
   }
 }

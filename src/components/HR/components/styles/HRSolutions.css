@@ -113,56 +113,11 @@
 @media (max-width: 992px) {
   .hr-solutions-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
-  .section-main-title {
-    font-size: 26px;
   }
 }
 
 @media (max-width: 576px) {
-  .hr-solutions-section {
-    padding: 50px 0;
-  }
   .hr-solutions-grid {
     grid-template-columns: 1fr;
-    gap: 18px;
-    margin-top: 30px;
-  }
-  .section-main-title {
-    font-size: 22px;
-    line-height: 1.5;
-  }
-  .hr-solution-card {
-    padding: 25px 20px;
-    border-radius: 18px;
-  }
-  .hr-solution-icon {
-    margin-bottom: 15px;
-  }
-  .hr-solution-icon svg,
-  .hr-solution-icon img {
-    width: 40px;
-    height: 40px;
-  }
-  .hr-solution-title {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  .hr-solution-desc {
-    font-size: 14px;
-    margin-bottom: 16px;
-    line-height: 1.6;
-  }
-  .hr-solution-features {
-    margin-bottom: 18px;
-  }
-  .hr-solution-features li {
-    padding: 8px 0;
-    font-size: 13px;
-  }
-  .hr-solution-btn {
-    font-size: 13px;
-    gap: 8px;
   }
 }
