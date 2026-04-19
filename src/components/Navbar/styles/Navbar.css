@@ -189,12 +189,32 @@
   .floating-nav {
     flex-direction: column;
     border-radius: 20px;
+    top: 10px;
   }
   .desktop-menu {
     display: none !important;
   }
   .mobile-menu {
     display: block;
+  }
+  .nav-logo-text {
+    font-size: 18px;
+  }
+  .nav-logo-image {
+    height: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .floating-nav {
+    width: 92%;
+    padding: 10px 15px;
+  }
+  .nav-logo-text {
+    font-size: 16px;
+  }
+  .nav-logo-image {
+    height: 25px;
   }
 }
 

@@ -128,5 +128,50 @@
 }
 
 @media (max-width: 1024px) {
-  .premium-cards-grid { grid-template-columns: 1fr; }
+  .premium-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .circles-solutions {
+    padding: 60px 0;
+  }
+  .header-group {
+    margin-bottom: 40px;
+  }
+  .main-sentence {
+    font-size: 24px;
+  }
+  .premium-cards-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    margin-top: 30px;
+  }
+  .modern-card {
+    border-radius: 20px;
+  }
+  .card-image-wrapper {
+    height: 160px;
+  }
+  .card-body-content {
+    padding: 22px;
+  }
+  .card-main-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .card-main-desc {
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+  .features-sub-list {
+    padding-top: 15px;
+  }
+  .features-sub-list li {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
 }

@@ -149,7 +149,66 @@
 .activity-item p { font-size: 13.5px; color: #475569; line-height: 1.4; }
 .activity-item p strong { color: #1e293b; }
 
-@media (max-width: 640px) {
-  .stats-grid { grid-template-columns: 1fr; }
-  .analysis-area { grid-template-columns: 1fr; }
+@media (max-width: 768px) {
+  .mockup-wrapper {
+    width: 100%;
+    margin: 30px auto 0;
+    border-radius: 12px;
+  }
+  .browser-header {
+    padding: 10px 15px;
+  }
+  .dots { gap: 6px; margin-left: 12px; }
+  .dot { width: 10px; height: 10px; }
+  .browser-address { display: none; }
+  .dashboard-core { padding: 20px 15px; }
+  .db-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  .user-welcome h1 { font-size: 18px; }
+  .user-welcome p { font-size: 13px; }
+  .live-status {
+    padding: 6px 12px;
+    font-size: 11px;
+  }
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin-bottom: 25px;
+  }
+  .stat-card {
+    padding: 18px;
+    border-radius: 14px;
+  }
+  .stat-label { font-size: 12px; }
+  .stat-value { font-size: 26px; margin: 8px 0; }
+  .stat-change { font-size: 11px; padding: 3px 8px; }
+  .progress-bar { margin-top: 10px; }
+  .analysis-area {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .chart-box, .recent-actions {
+    padding: 18px;
+    border-radius: 14px;
+  }
+  .chart-box h3, .recent-actions h3 { font-size: 15px; margin-bottom: 15px; }
+  .bars-container {
+    height: 140px;
+    padding-top: 15px;
+  }
+  .bar-wrapper { gap: 6px; }
+  .bar { width: 60%; border-radius: 4px; }
+  .bar-label { font-size: 10px; }
+  .activity-list { gap: 12px; }
+  .activity-item { gap: 10px; }
+  .act-icon {
+    width: 32px; height: 32px;
+    border-radius: 10px;
+    font-size: 12px;
+  }
+  .activity-item p { font-size: 12.5px; }
 }
